@@ -39,7 +39,7 @@ predictions = emotion_model.predict_generator(test_generator)
 
 print("-----------------------------------------------------------------")
 # confusion matrix
-c_matrix = confusion_matrix(test_generator.classes, predictions.argmax(axis=1))
+
 print(c_matrix)
 cm_display = ConfusionMatrixDisplay(confusion_matrix=c_matrix, display_labels=emotion_dict)
 cm_display.plot(cmap=plt.cm.Blues)
