@@ -25,7 +25,7 @@ test_data_gen = ImageDataGenerator(rescale=1./255)
 test_generator = test_data_gen.flow_from_directory(
         'data/test',
         target_size=(48, 48),
-        batch_size=64,
+        batch_size=34,
         color_mode="grayscale",
         class_mode='categorical')
 
