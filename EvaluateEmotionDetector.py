@@ -33,9 +33,9 @@ test_generator = test_data_gen.flow_from_directory(
 predictions = emotion_model.predict_generator(test_generator)
 
 # see predictions
-for result in predictions:
-    max_index = int(np.argmax(result))
-    print(emotion_dict[max_index])
+# for result in predictions:
+#     max_index = int(np.argmax(result))
+#     print(emotion_dict[max_index])
 
 print("-----------------------------------------------------------------")
 # confusion matrix
