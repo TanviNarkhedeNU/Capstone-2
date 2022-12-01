@@ -38,43 +38,12 @@ The input image is first given to the face detector to detect the face and then 
 * Python 3.7+ 
 * Other requirement are mentioned in requirements.txt and can be installed as shown below.
 
-## ⚙️Setup
-1. First create a virtual environment using venv. You can use powershell, go to the path you want and type the below commands. 
-```
-python -m venv EViz
-```
-2. Activate it.
-```
-EViz\Scripts\activate
-```
-Then you can use pip list to see what are all the packages installed and there will be pip and settup tools(in my case).
 
-3. Upgrade pip to the latest version.
-```
-python -m pip install --upgrade pip
-```
-Clone the EmoViz repo and change the directory to EmoViz and run the below command.
 
-4. Install the required packages.
-```
-python -m pip install -r requirements.txt
-```
-That's it you're set to go.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# 🎯Inference
+# Inference
 ```
 python app.py
 ```
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-# ⚖License
-Distributed under the MIT License. See LICENSE.txt for more information.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-# Credits
-* http://www.whdeng.cn/raf/li_RAFDB_2017_CVPR.pdf
-
-<p align="right">(<a href="#top">back to top</a>)</p>
