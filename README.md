@@ -1,41 +1,4 @@
-# EmoViz(Facial Emotion Detector)
-# 🙂😀😮😤😒😔😨
 
-https://user-images.githubusercontent.com/96725900/164004710-2fbaaa02-fe4f-4645-b08d-d1426139ced5.mp4
-
-![7Emotions](https://user-images.githubusercontent.com/96725900/163942354-e7befdcc-1772-4877-b271-bab3d5c9eabf.png)
-
-Jump over to the Installation section using the table of contents if you don't want to know much about the project. 
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#Description">Description</a></li>
-    <li>
-      <a href="#About the Models">About the Models</a>
-      <ul>
-        <li><a href="#Face Detector">Face Detector</a></li>
-      </ul>
-      <ul>
-        <li><a href="#Facial Emotion Classifier">Facial Emotion Classifier</a></li>
-      </ul>
-      <ul>
-        <li><a href="#How it works">How it works</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#Installation">Installation</a>
-      <ul>
-        <li><a href="#Requirements">Requirements</a></li>
-        <li><a href="#Setup">Setup</a></li>
-      </ul>
-    </li>
-    <li><a href="#Inference">Inference</a></li>
-    <li><a href="#License">License</a></li>
-    <li><a href="#Credits">Credits</a></li>
-  </ol>
-</details>
 
 # 📝Description
 
