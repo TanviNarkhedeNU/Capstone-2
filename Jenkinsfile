@@ -8,20 +8,9 @@ pipeline {
         
           steps {
            
-            sh 'python3 app.py'
+            sh 'python app.py'
            }
      }
-     stage("test") {
-     
-        steps {
-        echo 'testing..'
-        }
+    
      }
-     stage("deploy") {
-     
-        steps {
-        echo 'deploying..'
-        }
-     }
-  }
 }
